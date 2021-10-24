@@ -1,0 +1,11 @@
+
+public class BankInfo
+{
+	public Bank create()
+	{
+		int SBIN00100473;
+		Bank  bank1= new Bank(10, "ram shelar", SBIN00100473, "bhondemahesh9999@gmail", 222223, 10000, "dighi");
+	}
+	
+	
+}

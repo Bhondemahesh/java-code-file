@@ -1,0 +1,13 @@
+
+public class BookMain {
+
+	public static void main(String[] args) 
+	{
+		Book[] arr;
+		Bookinfo binfo = new  Bookinfo();
+		Book book[]=binfo.create();
+		
+		binfo.display(book);
+	}
+
+}

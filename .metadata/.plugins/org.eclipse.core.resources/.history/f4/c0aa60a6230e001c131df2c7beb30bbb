@@ -1,0 +1,10 @@
+public class Product 
+{
+	private int prod_id;
+	private String prod_name;
+	private int prod_price;
+	private int prod_qty;
+	private String prod_compni;
+	private String prod_Dateofmanu;
+	private String prod_massage;
+}

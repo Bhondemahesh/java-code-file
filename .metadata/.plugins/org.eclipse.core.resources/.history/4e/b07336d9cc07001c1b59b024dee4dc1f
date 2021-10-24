@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Forloopusingsum 
+{
+	public static void main(String[] args) 
+	{
+	Scanner sc = new Scanner(System.in);
+	System.out.println("\n Enter any to number");
+	int ans = sc.nextInt();
+	int number1 = sc.nextInt();
+	int ans=1;
+	System.out.println(+number);
+	System.out.println(+number1);
+	for (int i = 1; i < 13; i++)
+	{
+		 	System.out.println(+ans);	
+	}
+	
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+public class Array 
+{
+	int [][] = arr1[20][20];
+	public void create()
+{
+	
+}
+}

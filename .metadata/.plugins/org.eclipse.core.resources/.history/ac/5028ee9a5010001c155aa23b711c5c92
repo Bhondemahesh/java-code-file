@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Array 
+{
+	int [][] arr1= new int[20][20];
+	int [][] arr2= new int[20][20];
+	int r1,c1,r2,c2;
+	Scanner sc =new Scanner(System.in);
+	public void create()
+	{
+		System.out.println("\n Enter row and column in first matrix :\n");
+		r1=sc.nextInt();
+		c1=sc.nextInt();
+		System.out.println("\n How many Array create : ");
+		int ch = sc.nextInt();
+		for (int i = 0; i < ch ; i++ )
+		{
+			System.out.println("\n Enter a element in matrix : \n"+i);
+			for (int i = 0; i < r1; i++) 
+			{
+				for (int j = 0; j < c1; j++) 
+				{
+				arr1[i][j]=sc.nextInt();	
+				}
+			}
+	
+		}
+				
+	}
+}

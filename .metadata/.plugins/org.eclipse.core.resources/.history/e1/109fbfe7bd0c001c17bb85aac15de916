@@ -1,0 +1,11 @@
+public class ShopMain 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello....");
+		Product prod = new Product(10, "laptop", 20000, 2);
+		Address addr = new Address("pune","MH",413702);
+		Customer cust = new Customer(10, "mahesh", "9623897271", addr, prod);
+	}
+
+}

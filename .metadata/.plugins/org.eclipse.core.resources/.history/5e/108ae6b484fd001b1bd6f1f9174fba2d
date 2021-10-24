@@ -1,0 +1,7 @@
+
+public class Bank {
+private int accNo;
+private char accName;
+private int ifcCode;
+
+}

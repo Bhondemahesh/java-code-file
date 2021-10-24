@@ -1,0 +1,31 @@
+
+public class Rectangle 
+{
+float height;
+float base;
+float result;
+public Rectangle(float height,float base, float result) {
+	super();
+	this.height = height;
+	this.base = base;
+	this.result = result;
+}
+public float getHeight() {
+	return height;
+}
+public void setHeight(float height) {
+	this.height = height;
+}
+public float getBase() {
+	return base;
+}
+public void setBase(float base) {
+	this.base = base;
+}
+public float getResult() {
+	return result;
+}
+public void setResult(float result) {
+	this.result = result;
+}
+}

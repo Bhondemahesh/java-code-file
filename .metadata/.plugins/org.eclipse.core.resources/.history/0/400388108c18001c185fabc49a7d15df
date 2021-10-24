@@ -1,0 +1,11 @@
+
+public class Bill 
+{
+	public void bill(int b) 
+	{
+		for (int i = 0; i <b; i++)
+		{
+			System.out.println(+b);
+		}
+	}
+}

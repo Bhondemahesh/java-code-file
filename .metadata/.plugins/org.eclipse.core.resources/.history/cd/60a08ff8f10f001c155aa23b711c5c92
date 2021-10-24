@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class ArrayMain 
+{
+	public static void name(String args)
+	{
+		Arrayinfo a = new Arrayinfo();
+		Scanner sc = new Scanner(System.in);
+		System.out.print("\n1 Create   : "
+					   + "\n2 Display  : ");
+		System.out.print("\n Enter your choice :\n");
+		int choice = sc.nextInt();
+		switch (choice) {
+		case 1:
+			a.array();
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+}

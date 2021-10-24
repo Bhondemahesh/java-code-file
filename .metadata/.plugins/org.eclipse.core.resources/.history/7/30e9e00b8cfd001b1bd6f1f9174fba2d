@@ -1,0 +1,22 @@
+import java.awt.print.Book;
+
+public class BankInfo
+{
+	public Bank create()
+	{
+		Bank bank1 = new Bank(0,"mahesh", 101101, "bhondemahesh9999", 123123,10000, "dighi");
+		return bank1;
+	}
+	
+	public void display(Bank bank1)
+	{
+
+		System.out.println("\n \t\t\t banck account number is:"+bank1.getAccNo());
+		System.out.println("\t\t\t bank account holder name is :"+bank1.getAccName());
+		System.out.println("\t\t\t bank IFSC code:"+bank1.getAccifcCode());
+		System.out.println("\t\t\t bank account email address:"+bank1.getAccEmail());
+		System.out.println("\t\t\t bank account holder phone number:"+bank1.getAccPhone());;
+		System.out.println("\t\t\t bank balance is:"+bank1.getAccBalance());
+		System.out.println("\t\t\t bank address id :"+bank1.getAccAddress());
+	}	
+}

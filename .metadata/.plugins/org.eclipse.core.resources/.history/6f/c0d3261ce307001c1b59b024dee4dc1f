@@ -1,0 +1,16 @@
+/*Write a program that accepts two numbers in the range from 1 to 40 from the Command Line. It then compares these numbers against a single dimension array of five integer elements ranging in value from 1 to 40. The program displays the message BINGO if the two inputted values are found in the array element. For example:
+input>java prob3 3 29
+output>Your first number was 3
+Your second number was 29
+Its Bingo! // this message if 3 and 29 is found in the array
+Not Found! // this message if 3 and 29 is not found in the         //array
+The array was 7 25 5 19 30
+*/
+public class Array1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

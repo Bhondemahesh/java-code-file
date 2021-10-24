@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class StudentInfo
+	{
+public void create () 
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter how many element");
+int number = sc.nextInt();
+}
+	
+}

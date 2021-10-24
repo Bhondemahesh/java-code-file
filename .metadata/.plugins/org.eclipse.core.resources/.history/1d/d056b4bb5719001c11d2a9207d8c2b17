@@ -1,0 +1,7 @@
+public class usingfunction 
+{
+	public int length(String str)
+	{
+		return str.length();
+	}
+}

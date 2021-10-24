@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Matrixmain 
+{
+	public static void main(String[] args) 
+	{
+			Scanner sc = new Scanner(System.in);
+			int n1=sc.nextInt();
+			int arr[][] = new int [n1][];
+			arr[0]=new int [3];
+			arr[1]=new int [4];
+			arr[2]=new int [2];
+			arr[3]=new int [1];
+			}
+
+}

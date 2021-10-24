@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Hotelbill	
+{
+	Staters str = new Staters();
+	public static void main(String[] args)
+	{
+		Scanner sc =  new Scanner(System.in);
+		String strters[] = {"Veg Staters","Non_Veg Staters "," "};
+		System.out.println("");
+	}
+}

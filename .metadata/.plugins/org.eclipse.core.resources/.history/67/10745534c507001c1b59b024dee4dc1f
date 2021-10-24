@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\n Enter any string to reverse");
+	String a=a.concat();
+	}
+
+}

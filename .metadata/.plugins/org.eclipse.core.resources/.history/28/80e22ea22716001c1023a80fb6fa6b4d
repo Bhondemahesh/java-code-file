@@ -1,0 +1,10 @@
+public class Staters
+{
+	public void  ststers()
+	{
+		String vegmenu[] = {"a1","a2","a3","a4"	};
+		int vegprice[] = {200,200,250,300};
+		int k=0,ono=0;
+		int order[] = new int [10];	
+	}
+}

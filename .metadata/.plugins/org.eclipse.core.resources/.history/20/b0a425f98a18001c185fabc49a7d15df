@@ -1,0 +1,11 @@
+
+public class Bill 
+{
+	public void bill(int bill) 
+	{
+		for (int i = 0; i <bill; i++)
+		{
+			System.out.println(+bill[i]);
+		}
+	}
+}

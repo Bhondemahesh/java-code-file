@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Mobliecomunication
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1 : prepaid comunication");
+		System.out.println("2 : postpaid comunication");
+		int ch = sc.nextInt();
+	}
+
+}

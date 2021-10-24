@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ArrayMain {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\n1 Create  : "
+						 + "\n2 Display : ");
+		Array arr = new Array();
+		arr.create();
+		
+	}
+
+}

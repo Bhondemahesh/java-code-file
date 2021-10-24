@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.util.concurrent.SynchronousQueue;
+
+public class Non_veg 
+{
+	Scanner sc = new Scanner(System.in);
+	int k=0;
+	int order[] = new int[10];
+	String non_vegname[] = {"chickan lolipop  ","chicken full handi  ","Chicken half handi  "};
+	int non_price[] = {120,250,200};
+	public void non_veg()
+	{
+		System.out.println("~~~~~~~~~~~~~~~~~~Non_Veg Order~~~~~~~~~~~~~~~~~~");	
+		do 
+		{
+			
+			
+		System.out.println("Do you want contiune : press 1");
+		} while (sc.nextInt()==1);
+	}
+}

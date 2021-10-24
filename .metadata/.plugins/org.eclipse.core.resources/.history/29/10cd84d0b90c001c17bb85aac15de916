@@ -1,0 +1,15 @@
+public class Product
+{
+  private int prodId;
+  private String prodName;
+  private int prodPrice;
+  private int prodQty;
+public Product(int prodId, String prodName, int prodPrice, int prodQty) {
+	super();
+	this.prodId = prodId;
+	this.prodName = prodName;
+	this.prodPrice = prodPrice;
+	this.prodQty = prodQty;
+}
+}
+

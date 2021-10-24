@@ -1,0 +1,6 @@
+public class Product 
+{
+	private int prod_id;
+	private String prod_name;
+	private
+}

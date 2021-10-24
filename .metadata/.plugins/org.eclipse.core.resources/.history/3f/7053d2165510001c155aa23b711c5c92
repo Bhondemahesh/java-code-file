@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class ArrayMain {
+
+	public static void main(String[] args) 
+	{
+		int ch1;
+		Array arr = new Array();
+		Scanner sc = new Scanner(System.in);
+		do
+		{
+			System.out.println("\n1 Create  : "
+					 + "\n2 Display : ");
+				int choice = sc.nextInt();
+				switch (choice)
+				{
+				case 1:
+					arr.create();
+					break;
+			
+				default:
+					break;
+				}
+				System.out.println("Do you want to continue : press 1");
+				 ch1 = sc.nextInt();
+		} while (ch1==1);
+				
+	}
+
+}

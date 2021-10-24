@@ -1,0 +1,15 @@
+public class Customer {
+private int custId;
+private	String custName;
+private	String mobNo;
+private Address addr;
+private Product prod;
+public Customer(int custId, String custName, String mobNo, Address addr, Product prod) {
+	super();
+	this.custId = custId;
+	this.custName = custName;
+	this.mobNo = mobNo;
+	this.addr = addr;
+	this.prod = prod;
+}
+}

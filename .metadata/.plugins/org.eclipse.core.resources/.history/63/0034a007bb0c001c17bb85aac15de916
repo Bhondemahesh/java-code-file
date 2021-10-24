@@ -1,0 +1,7 @@
+public class Customer {
+private int custId;
+private	String custName;
+private	String mobNo;
+private Address addr;
+private Product prod;
+}

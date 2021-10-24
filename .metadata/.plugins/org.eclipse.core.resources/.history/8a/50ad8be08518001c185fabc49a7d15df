@@ -1,0 +1,19 @@
+public class Staters
+{
+		String ordername[] = {
+			  "Masala Papad         :",
+	  		  "Potato chipess       :",
+	  		  "chaha                :",
+	  		  "Copy                 :",
+	  		  "Cold Copy            :",
+	  		  "Chikeen lolipop      :",
+	  		  "Pasta                :"};
+	int orderno[] =  {20,
+					  15,
+					  10,
+					  10,
+					  15,
+					  100,
+					  45};
+
+}

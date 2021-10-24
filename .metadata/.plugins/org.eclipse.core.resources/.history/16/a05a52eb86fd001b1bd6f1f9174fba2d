@@ -1,0 +1,14 @@
+
+public class BankInfo
+{
+	public Bank create()
+	{
+		Bank  bank1= new Bank(10, "ram shelar", SBIN00100473, bhondemahesh9999@gmail, 222223, 10000, "dighi")
+	}
+	
+	public Book create()
+	{
+		Book bobj = new Book(101, "java", 1201,"bhonde",10);
+		return bobj;
+	}
+}

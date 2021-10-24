@@ -1,0 +1,10 @@
+public class Non_veg 
+{
+	int order[] = new int[10];
+	String non_vegname[] = {"chickan lolipop  ","chicken full handi  ","Chicken half handi  "};
+	int non_price[] = {120,250,200};
+	public void non_veg()
+	{
+		
+	}
+}

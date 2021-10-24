@@ -1,0 +1,17 @@
+import javax.swing.Spring;
+
+public class Address 
+{
+		private String city;
+		private String state;
+		private int pincode;
+		private String Permarnet_add;
+		public Address(String city, String state, int pincode, String permarnet_add) {
+			super();
+			this.city = city;
+			this.state = state;
+			this.pincode = pincode;
+			Permarnet_add = permarnet_add;
+		}
+		
+}

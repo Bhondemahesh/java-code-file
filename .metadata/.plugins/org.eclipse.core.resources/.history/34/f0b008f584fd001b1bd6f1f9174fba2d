@@ -1,0 +1,9 @@
+
+public class Bank {
+private int accNo;
+private String accName;
+private int accifcCode;
+private String accEmail;;
+
+
+}

@@ -1,0 +1,9 @@
+
+public class Staters 
+{
+	public void  staters()
+	{
+	System.out.println(" staters");	
+	}
+
+}

@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class Staters 
+{
+	String ordername[] = {"Masala Papad         :",
+	            		  "Potato chipess       :",
+	            		  "chaha                :",
+	            		  "Copy                 :",
+	            		  "Cold Copy            :",
+	            		  "Chikeen lolipop      :",
+	            		  "Pasta                :"};
+	int orderno[] =  {20,
+				  15,
+				  10,
+				  10,
+				  15,
+				  100,
+				  45};
+	
+	int k=0;
+	public int   staters()
+	{
+		int order[] =  new int[10];
+		Scanner sc = new Scanner(System.in);
+		do
+		{
+			System.out.println("~~~~~~~~~~~~~~~~~~Staters~~~~~~~~~~~~~~~~~~");	
+			System.out.println("------------------------------------------------------------");
+		for (int i = 0; i < ordername.length; i++) 
+		{
+		System.out.println((i+1)+"\t"+ordername[i]+"\t"+orderno[i]);
+		}
+		System.out.println("-------------------------------------------------------------");
+		System.out.println(" Enter your choice : ");
+		int choice = sc.nextInt();
+		System.out.println("-------------------------------------------------------------");		
+		order[k]  = choice;
+		System.out.println("do you want to continue press 1");
+	
+		}while(sc.nextInt()==1);
+			float total=0;
+			for (int i = 0; i < k; i++)
+			{
+				System.out.println(order[i]);
+				total=total+orderno[order[i]-1];		
+			}
+			return total;
+	}
+	
+
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class PrePaid
+{
+public void prepaid() 
+{
+	offer off = new offer();
+	Scanner sc = new  Scanner(System.in);
+	System.out.println(" 1 :  jio "
+					 + " 2 :  Vi "
+					 + " 3 :  Airtel");
+	int ch = sc.nextInt();
+	if (ch==1)
+		off.Jio();
+		
+	
+}
+}

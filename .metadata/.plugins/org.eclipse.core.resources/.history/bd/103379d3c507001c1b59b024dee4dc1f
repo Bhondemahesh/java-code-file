@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class StringLength {
+
+	public static void main(String[] args)
+	{
+	 System.out.println("\n enter a string");
+		for (int i = 0; i < strAsByteArray.length; i++)
+            result[i] = strAsByteArray[strAsByteArray.length - i - 1];
+ 
+        System.out.println(new String(result));
+    }
+
+}

@@ -1,0 +1,21 @@
+public class Product 
+{
+	private int prod_id;
+	private String prod_name;
+	private int prod_price;
+	private int prod_qty;
+	private String prod_compni;
+	private String prod_Dateofmanu;
+	private String prod_massage;
+	public Product(int prod_id, String prod_name, int prod_price, int prod_qty, String prod_compni,
+			String prod_Dateofmanu, String prod_massage) {
+		super();
+		this.prod_id = prod_id;
+		this.prod_name = prod_name;
+		this.prod_price = prod_price;
+		this.prod_qty = prod_qty;
+		this.prod_compni = prod_compni;
+		this.prod_Dateofmanu = prod_Dateofmanu;
+		this.prod_massage = prod_massage;
+	}
+}

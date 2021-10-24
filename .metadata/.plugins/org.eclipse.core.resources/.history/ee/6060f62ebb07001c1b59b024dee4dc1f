@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Bookinfo
+{
+ public Book[] create()
+ {
+	 Scanner sc = new Scanner(System.in);
+	 System.out.println("\n Enter number of object :");
+	 int number = sc.nextInt();
+	Book arr[]=new Book[number]; 
+	 for (int i = 0; i < arr.length; i++)
+	 {
+		 System.out.println("Enter Title :"
+		 				  + "Enter Price :");
+		Book book1= new Book(sc.next(), sc.nextFloat());
+	}
+	 return null;
+ }
+ public void display(Book[] acc) 
+ {
+	 for (int i = 0; i <acc.length ; i++) 
+	 {
+		 System.out.println("_______________________________________");
+		System.out.println("Book  Title :  "+acc[i].getBook_title());
+		System.out.println("Book Price  :  "+acc[i].getBook_price());
+	}
+}
+}

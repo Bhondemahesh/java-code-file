@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class StudentInfo
+	{
+public void create () 
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter how many element");
+int number = sc.nextInt();
+Student stud = Student[number];
+
+for (int i = 0; i < number; i++)
+{
+System.out.println("Enter student id : "arr);	
+}
+}
+	
+}

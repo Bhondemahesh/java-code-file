@@ -1,0 +1,13 @@
+
+public class RectangleInfo 
+{	
+	public float rectangle(float n2,float n3)
+	{
+		float ans=(float) (0.5*n2*n3);
+
+		System.out.println("area of rectangle:"+ans);
+	
+		return ans;
+	}
+	
+}

@@ -1,0 +1,8 @@
+public class Product
+{
+  private int prodId;
+  private String prodName;
+  private int prodPrice;
+  private int prodQty;
+}
+

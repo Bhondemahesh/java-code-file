@@ -1,0 +1,11 @@
+import java.awt.print.Book;
+
+public class BankInfo
+{
+	public Bank create()
+	{
+		Bank bank1=new Bank(10,"mahesh",10101, "bhondemahesh9999", 222223, 10000, "dighi");
+	}
+	
+	
+}
